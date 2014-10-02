@@ -83,6 +83,7 @@ body {
 
 .sales__details[data-state="active"] {
   opacity: 1;
+  margin: 0px 5% 0;
 }
 
 .sales__details {
@@ -96,6 +97,8 @@ body {
   border-radius: 6px;
   opacity: 0;
   transition: opacity 250ms linear;
+
+
 }
 
 .sales__details::before {
